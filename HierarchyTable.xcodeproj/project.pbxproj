@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		D3826B621C7E0A360024DDDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3826B611C7E0A360024DDDD /* AppDelegate.swift */; };
-		D3826B641C7E0A360024DDDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3826B631C7E0A360024DDDD /* ViewController.swift */; };
 		D3826B671C7E0A360024DDDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3826B651C7E0A360024DDDD /* Main.storyboard */; };
 		D3826B6A1C7E0A360024DDDD /* HierarchyTable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D3826B681C7E0A360024DDDD /* HierarchyTable.xcdatamodeld */; };
 		D3826B6C1C7E0A360024DDDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3826B6B1C7E0A360024DDDD /* Assets.xcassets */; };
 		D3826B6F1C7E0A360024DDDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3826B6D1C7E0A360024DDDD /* LaunchScreen.storyboard */; };
 		D3826B7A1C7E0A360024DDDD /* HierarchyTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3826B791C7E0A360024DDDD /* HierarchyTableTests.swift */; };
 		D3826B851C7E0A360024DDDD /* HierarchyTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3826B841C7E0A360024DDDD /* HierarchyTableUITests.swift */; };
+		D3826B931C7E0FE80024DDDD /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3826B921C7E0FE80024DDDD /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		D3826B5E1C7E0A350024DDDD /* HierarchyTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HierarchyTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3826B611C7E0A360024DDDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D3826B631C7E0A360024DDDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D3826B661C7E0A360024DDDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3826B691C7E0A360024DDDD /* HierarchyTable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HierarchyTable.xcdatamodel; sourceTree = "<group>"; };
 		D3826B6B1C7E0A360024DDDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		D3826B801C7E0A360024DDDD /* HierarchyTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HierarchyTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3826B841C7E0A360024DDDD /* HierarchyTableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HierarchyTableUITests.swift; sourceTree = "<group>"; };
 		D3826B861C7E0A360024DDDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3826B921C7E0FE80024DDDD /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				D3826B611C7E0A360024DDDD /* AppDelegate.swift */,
-				D3826B631C7E0A360024DDDD /* ViewController.swift */,
+				D3826B921C7E0FE80024DDDD /* TableViewController.swift */,
 				D3826B651C7E0A360024DDDD /* Main.storyboard */,
 				D3826B6B1C7E0A360024DDDD /* Assets.xcassets */,
 				D3826B6D1C7E0A360024DDDD /* LaunchScreen.storyboard */,
@@ -259,8 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3826B641C7E0A360024DDDD /* ViewController.swift in Sources */,
 				D3826B6A1C7E0A360024DDDD /* HierarchyTable.xcdatamodeld in Sources */,
+				D3826B931C7E0FE80024DDDD /* TableViewController.swift in Sources */,
 				D3826B621C7E0A360024DDDD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
