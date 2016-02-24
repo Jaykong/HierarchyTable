@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3826B621C7E0A360024DDDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3826B611C7E0A360024DDDD /* AppDelegate.swift */; };
+		D3826B641C7E0A360024DDDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3826B631C7E0A360024DDDD /* ViewController.swift */; };
+		D3826B671C7E0A360024DDDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3826B651C7E0A360024DDDD /* Main.storyboard */; };
+		D3826B6A1C7E0A360024DDDD /* HierarchyTable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D3826B681C7E0A360024DDDD /* HierarchyTable.xcdatamodeld */; };
+		D3826B6C1C7E0A360024DDDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3826B6B1C7E0A360024DDDD /* Assets.xcassets */; };
+		D3826B6F1C7E0A360024DDDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3826B6D1C7E0A360024DDDD /* LaunchScreen.storyboard */; };
+		D3826B7A1C7E0A360024DDDD /* HierarchyTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3826B791C7E0A360024DDDD /* HierarchyTableTests.swift */; };
+		D3826B851C7E0A360024DDDD /* HierarchyTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3826B841C7E0A360024DDDD /* HierarchyTableUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3826B761C7E0A360024DDDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3826B561C7E0A350024DDDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3826B5D1C7E0A350024DDDD;
+			remoteInfo = HierarchyTable;
+		};
+		D3826B811C7E0A360024DDDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3826B561C7E0A350024DDDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3826B5D1C7E0A350024DDDD;
+			remoteInfo = HierarchyTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3826B5E1C7E0A350024DDDD /* HierarchyTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HierarchyTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3826B611C7E0A360024DDDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3826B631C7E0A360024DDDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3826B661C7E0A360024DDDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3826B691C7E0A360024DDDD /* HierarchyTable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HierarchyTable.xcdatamodel; sourceTree = "<group>"; };
+		D3826B6B1C7E0A360024DDDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3826B6E1C7E0A360024DDDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3826B701C7E0A360024DDDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3826B751C7E0A360024DDDD /* HierarchyTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HierarchyTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3826B791C7E0A360024DDDD /* HierarchyTableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HierarchyTableTests.swift; sourceTree = "<group>"; };
+		D3826B7B1C7E0A360024DDDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3826B801C7E0A360024DDDD /* HierarchyTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HierarchyTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3826B841C7E0A360024DDDD /* HierarchyTableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HierarchyTableUITests.swift; sourceTree = "<group>"; };
+		D3826B861C7E0A360024DDDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3826B5B1C7E0A350024DDDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3826B721C7E0A360024DDDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3826B7D1C7E0A360024DDDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3826B551C7E0A350024DDDD = {
+			isa = PBXGroup;
+			children = (
+				D3826B601C7E0A350024DDDD /* HierarchyTable */,
+				D3826B781C7E0A360024DDDD /* HierarchyTableTests */,
+				D3826B831C7E0A360024DDDD /* HierarchyTableUITests */,
+				D3826B5F1C7E0A350024DDDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3826B5F1C7E0A350024DDDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3826B5E1C7E0A350024DDDD /* HierarchyTable.app */,
+				D3826B751C7E0A360024DDDD /* HierarchyTableTests.xctest */,
+				D3826B801C7E0A360024DDDD /* HierarchyTableUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3826B601C7E0A350024DDDD /* HierarchyTable */ = {
+			isa = PBXGroup;
+			children = (
+				D3826B611C7E0A360024DDDD /* AppDelegate.swift */,
+				D3826B631C7E0A360024DDDD /* ViewController.swift */,
+				D3826B651C7E0A360024DDDD /* Main.storyboard */,
+				D3826B6B1C7E0A360024DDDD /* Assets.xcassets */,
+				D3826B6D1C7E0A360024DDDD /* LaunchScreen.storyboard */,
+				D3826B701C7E0A360024DDDD /* Info.plist */,
+				D3826B681C7E0A360024DDDD /* HierarchyTable.xcdatamodeld */,
+			);
+			path = HierarchyTable;
+			sourceTree = "<group>";
+		};
+		D3826B781C7E0A360024DDDD /* HierarchyTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3826B791C7E0A360024DDDD /* HierarchyTableTests.swift */,
+				D3826B7B1C7E0A360024DDDD /* Info.plist */,
+			);
+			path = HierarchyTableTests;
+			sourceTree = "<group>";
+		};
+		D3826B831C7E0A360024DDDD /* HierarchyTableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3826B841C7E0A360024DDDD /* HierarchyTableUITests.swift */,
+				D3826B861C7E0A360024DDDD /* Info.plist */,
+			);
+			path = HierarchyTableUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3826B5D1C7E0A350024DDDD /* HierarchyTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3826B891C7E0A360024DDDD /* Build configuration list for PBXNativeTarget "HierarchyTable" */;
+			buildPhases = (
+				D3826B5A1C7E0A350024DDDD /* Sources */,
+				D3826B5B1C7E0A350024DDDD /* Frameworks */,
+				D3826B5C1C7E0A350024DDDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HierarchyTable;
+			productName = HierarchyTable;
+			productReference = D3826B5E1C7E0A350024DDDD /* HierarchyTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3826B741C7E0A360024DDDD /* HierarchyTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3826B8C1C7E0A360024DDDD /* Build configuration list for PBXNativeTarget "HierarchyTableTests" */;
+			buildPhases = (
+				D3826B711C7E0A360024DDDD /* Sources */,
+				D3826B721C7E0A360024DDDD /* Frameworks */,
+				D3826B731C7E0A360024DDDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3826B771C7E0A360024DDDD /* PBXTargetDependency */,
+			);
+			name = HierarchyTableTests;
+			productName = HierarchyTableTests;
+			productReference = D3826B751C7E0A360024DDDD /* HierarchyTableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3826B7F1C7E0A360024DDDD /* HierarchyTableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3826B8F1C7E0A360024DDDD /* Build configuration list for PBXNativeTarget "HierarchyTableUITests" */;
+			buildPhases = (
+				D3826B7C1C7E0A360024DDDD /* Sources */,
+				D3826B7D1C7E0A360024DDDD /* Frameworks */,
+				D3826B7E1C7E0A360024DDDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3826B821C7E0A360024DDDD /* PBXTargetDependency */,
+			);
+			name = HierarchyTableUITests;
+			productName = HierarchyTableUITests;
+			productReference = D3826B801C7E0A360024DDDD /* HierarchyTableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3826B561C7E0A350024DDDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = kongyunpeng;
+				TargetAttributes = {
+					D3826B5D1C7E0A350024DDDD = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					D3826B741C7E0A360024DDDD = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D3826B5D1C7E0A350024DDDD;
+					};
+					D3826B7F1C7E0A360024DDDD = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D3826B5D1C7E0A350024DDDD;
+					};
+				};
+			};
+			buildConfigurationList = D3826B591C7E0A350024DDDD /* Build configuration list for PBXProject "HierarchyTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3826B551C7E0A350024DDDD;
+			productRefGroup = D3826B5F1C7E0A350024DDDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3826B5D1C7E0A350024DDDD /* HierarchyTable */,
+				D3826B741C7E0A360024DDDD /* HierarchyTableTests */,
+				D3826B7F1C7E0A360024DDDD /* HierarchyTableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3826B5C1C7E0A350024DDDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3826B6F1C7E0A360024DDDD /* LaunchScreen.storyboard in Resources */,
+				D3826B6C1C7E0A360024DDDD /* Assets.xcassets in Resources */,
+				D3826B671C7E0A360024DDDD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3826B731C7E0A360024DDDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3826B7E1C7E0A360024DDDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3826B5A1C7E0A350024DDDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3826B641C7E0A360024DDDD /* ViewController.swift in Sources */,
+				D3826B6A1C7E0A360024DDDD /* HierarchyTable.xcdatamodeld in Sources */,
+				D3826B621C7E0A360024DDDD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3826B711C7E0A360024DDDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3826B7A1C7E0A360024DDDD /* HierarchyTableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3826B7C1C7E0A360024DDDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3826B851C7E0A360024DDDD /* HierarchyTableUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3826B771C7E0A360024DDDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3826B5D1C7E0A350024DDDD /* HierarchyTable */;
+			targetProxy = D3826B761C7E0A360024DDDD /* PBXContainerItemProxy */;
+		};
+		D3826B821C7E0A360024DDDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3826B5D1C7E0A350024DDDD /* HierarchyTable */;
+			targetProxy = D3826B811C7E0A360024DDDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3826B651C7E0A360024DDDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3826B661C7E0A360024DDDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3826B6D1C7E0A360024DDDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3826B6E1C7E0A360024DDDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3826B871C7E0A360024DDDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3826B881C7E0A360024DDDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3826B8A1C7E0A360024DDDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HierarchyTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.HierarchyTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D3826B8B1C7E0A360024DDDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HierarchyTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.HierarchyTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D3826B8D1C7E0A360024DDDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HierarchyTableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.HierarchyTableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HierarchyTable.app/HierarchyTable";
+			};
+			name = Debug;
+		};
+		D3826B8E1C7E0A360024DDDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HierarchyTableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.HierarchyTableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HierarchyTable.app/HierarchyTable";
+			};
+			name = Release;
+		};
+		D3826B901C7E0A360024DDDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HierarchyTableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.HierarchyTableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HierarchyTable;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D3826B911C7E0A360024DDDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HierarchyTableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.HierarchyTableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HierarchyTable;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3826B591C7E0A350024DDDD /* Build configuration list for PBXProject "HierarchyTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3826B871C7E0A360024DDDD /* Debug */,
+				D3826B881C7E0A360024DDDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3826B891C7E0A360024DDDD /* Build configuration list for PBXNativeTarget "HierarchyTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3826B8A1C7E0A360024DDDD /* Debug */,
+				D3826B8B1C7E0A360024DDDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3826B8C1C7E0A360024DDDD /* Build configuration list for PBXNativeTarget "HierarchyTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3826B8D1C7E0A360024DDDD /* Debug */,
+				D3826B8E1C7E0A360024DDDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3826B8F1C7E0A360024DDDD /* Build configuration list for PBXNativeTarget "HierarchyTableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3826B901C7E0A360024DDDD /* Debug */,
+				D3826B911C7E0A360024DDDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D3826B681C7E0A360024DDDD /* HierarchyTable.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D3826B691C7E0A360024DDDD /* HierarchyTable.xcdatamodel */,
+			);
+			currentVersion = D3826B691C7E0A360024DDDD /* HierarchyTable.xcdatamodel */;
+			path = HierarchyTable.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D3826B561C7E0A350024DDDD /* Project object */;
+}
