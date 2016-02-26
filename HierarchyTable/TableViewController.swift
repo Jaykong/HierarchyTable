@@ -35,6 +35,29 @@ class TableViewController: UITableViewController {
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
+        switch section {
+        case 0:
+            if bools.0 == true {
+               return 0
+            } else {
+               levels.count
+            }
+        case 1:
+            if bools.1 == true {
+                return 0
+            } else {
+                levels.count
+            }
+        case 2:
+            if bools.2 == true {
+                return 0
+            } else {
+                levels.count
+            }
+        default:
+            break
+        }
+        
         return levels.count
     }
 
@@ -45,6 +68,34 @@ class TableViewController: UITableViewController {
 
         return cell
     }
+    var bools = (false,false,false)
+    func headBtnClicked(section:Int) {
+       
+        switch section {
+        case 0 :
+            if bools.0 == true {
+                bools.0 = false
+            } else {
+                bools.0 = true
+            }
+        case 1 :
+            if bools.1 == true {
+                bools.1 = false
+            } else {
+                bools.1 = true
+            }
+        case 2 :
+            if bools.2 == true {
+                bools.2 = false
+            } else {
+                bools.2 = true
+            }
+        default:
+            break
+            
+        }
+        self.tableView.reloadData()
+    }
     override func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let button = UIButton(type: .Custom)
         button.frame = CGRect(x: 0, y: 0, width: tableView.frame.size.width, height: 44)
@@ -52,6 +103,8 @@ class TableViewController: UITableViewController {
         let title = titles[section]
         button.setTitle(title, forState: UIControlState.Normal)
         button.setTitleColor(UIColor.blackColor(), forState: .Normal)
+        button.addTarget(self, action: "headBtnClicked:", forControlEvents: .TouchUpInside)
+        
         return button
     }
 
