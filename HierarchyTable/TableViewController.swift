@@ -40,25 +40,25 @@ class TableViewController: UITableViewController {
             if bools.0 == true {
                return 0
             } else {
-               levels.count
+               return levels.count
             }
         case 1:
             if bools.1 == true {
                 return 0
             } else {
-                levels.count
+               return levels.count
             }
         case 2:
             if bools.2 == true {
                 return 0
             } else {
-                levels.count
+              return levels.count
             }
         default:
             break
         }
         
-        return levels.count
+      return 0
     }
 
     
@@ -69,9 +69,9 @@ class TableViewController: UITableViewController {
         return cell
     }
     var bools = (false,false,false)
-    func headBtnClicked(section:Int) {
+    func headBtnClicked(btn:UIButton) {
        
-        switch section {
+        switch btn.tag {
         case 0 :
             if bools.0 == true {
                 bools.0 = false
@@ -104,6 +104,7 @@ class TableViewController: UITableViewController {
         button.setTitle(title, forState: UIControlState.Normal)
         button.setTitleColor(UIColor.blackColor(), forState: .Normal)
         button.addTarget(self, action: "headBtnClicked:", forControlEvents: .TouchUpInside)
+        button.tag = section
         
         return button
     }
